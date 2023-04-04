@@ -11,9 +11,9 @@ assertEqual("Bootcamp", "Bootcamp");
 assertEqual(1,2);
 
 
-function head() {
+const headTest = function() {
   console.log(assertEqual[0]);
-}
+};
 
-assertEqual(head([5,6,7]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+assertEqual(headTest([5,6,7]), 5);
+assertEqual(headTest(["Hello", "Lighthouse", "Labs"]), "Hello");
