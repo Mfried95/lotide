@@ -12,7 +12,7 @@ assertEqual(1,2);
 
 
 function head() {
-  console.log(assertEqual[0])
+  console.log(assertEqual[0]);
 }
 
 assertEqual(head([5,6,7]), 5);
