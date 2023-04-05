@@ -20,7 +20,7 @@ const eqArrays = function(arr1, arr2) {
 
 const without = function(array1, array2) {
   let filteredArray = [];
-  
+
   for (const element of array1) {
     if (!array2.includes(element)) {
       filteredArray.push(element);
@@ -29,4 +29,3 @@ const without = function(array1, array2) {
   return filteredArray;
 };
 
-console.log(without([1, 2, 3], [1]))
