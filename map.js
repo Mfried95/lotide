@@ -9,4 +9,4 @@ const map = function(array, callback) {
 };
 
 
-map(words);
+
