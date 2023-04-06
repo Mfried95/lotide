@@ -22,7 +22,8 @@ const findKeyByValue = function(object, value) {
 
 
 
-const bestTVShowsByGenre = { 
+const bestTVShowsByGenre = {
+  // eslint-disable-next-line camelcase
   sci_fi: "The Expanse",
   comedy: "Brooklyn Nine-Nine",
   drama:  "The Wire"
