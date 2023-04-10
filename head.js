@@ -1,8 +1,10 @@
 const assertEqual = require('./assertEqual');
 
 
-const headTest = function() {
+const head = function() {
   console.log(assertEqual[0]);
 };
 
-headTest();
+head();
+
+module.export = head();
